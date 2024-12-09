@@ -73,7 +73,7 @@ These technologies and libraries work together to create a robust and scalable r
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/yourusername/BigDataProject.git
+git clone https://github.com/HARSHALK2598/BigDataProject.git
 cd BigDataProject
 ```
 ### **2. Install Dependencies**
