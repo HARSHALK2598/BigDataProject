@@ -12,25 +12,6 @@ Training of deep learning model is made scalable by utilising apache spark frame
 ### Movie Recommendation System
 ![Movie Recommendation System](images/recommendation_system.png)
 
-## **Project Structure**
-
-- **`ml-1m/`**:
-  - Directory containing the MovieLens 1M dataset.
-  - Refer to the `README` file in this folder for dataset details.
-- **`BigData_Project_v4.ipynb`**:
-  - Jupyter notebook for training the Neural Collaborative Filtering (NCF) model.
-  - The trained model weights are saved as `mrs-v4.pkl`.
-- **`movie_recommendation.db`**:
-  - SQLite database storing the `movies`, `ratings`, and `recommendations` tables.
-- **`movie_dashboard_v3.py`**:
-  - Streamlit dashboard script for interacting with the recommendation system.
-- **`load_data_to_sql.py`**:
-  - Script for loading the dataset into the SQLite database.
-- **`create_views.py`**:
-  - Script for creating reusable SQL views to speed up dashboard queries.
-- **`precompute_recommendations.py`**:
-  - Script to precompute and store the top 10 movie recommendations for all users.
-
 ---
 ## **Technologies and Libraries Used**
 
@@ -62,6 +43,27 @@ The project utilizes the following technologies and libraries:
 ### **Utilities**
 - **TQDM**: For displaying progress bars during computations.
 - **OS Module**: For file and path manipulations.
+
+---
+
+## **Project Structure**
+
+- **`ml-1m/`**:
+  - Directory containing the MovieLens 1M dataset.
+  - Refer to the `README` file in this folder for dataset details.
+- **`BigData_Project_v4.ipynb`**:
+  - Jupyter notebook for training the Neural Collaborative Filtering (NCF) model.
+  - The trained model weights are saved as `mrs-v4.pkl`.
+- **`movie_recommendation.db`**:
+  - SQLite database storing the `movies`, `ratings`, and `recommendations` tables.
+- **`movie_dashboard_v3.py`**:
+  - Streamlit dashboard script for interacting with the recommendation system.
+- **`load_data_to_sql.py`**:
+  - Script for loading the dataset into the SQLite database.
+- **`create_views.py`**:
+  - Script for creating reusable SQL views to speed up dashboard queries.
+- **`precompute_recommendations.py`**:
+  - Script to precompute and store the top 10 movie recommendations for all users.
 
 ---
 
