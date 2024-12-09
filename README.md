@@ -32,6 +32,40 @@ Training of deep learning model is made scalable by utilising apache spark frame
   - Script to precompute and store the top 10 movie recommendations for all users.
 
 ---
+## **Technologies and Libraries Used**
+
+The project utilizes the following technologies and libraries:
+
+### **Programming Languages**
+- **Python**: Core language for implementing the recommendation system, data processing, and dashboard.
+
+### **Data Analysis and Visualization**
+- **Pandas**: For data manipulation and analysis.
+- **NumPy**: For numerical operations and array handling.
+- **Matplotlib**: For creating static, animated, and interactive visualizations.
+- **Seaborn**: For statistical data visualization.
+
+### **Machine Learning and Deep Learning**
+- **PyTorch**: For building and training the Neural Collaborative Filtering (NCF) model.
+- **PyTorch Lightning**: For simplifying PyTorch training loops and improving scalability.
+- **Scikit-learn**: For dataset splitting and pre-processing.
+
+### **Big Data**
+- **Apache Spark**: For handling and processing large-scale datasets using Spark SQL and DataFrames.
+
+### **Web Frameworks**
+- **Streamlit**: For building an interactive, web-based dashboard.
+
+### **Database**
+- **SQLite**: For storing user data, movie data, and precomputed recommendations.
+
+### **Utilities**
+- **TQDM**: For displaying progress bars during computations.
+- **OS Module**: For file and path manipulations.
+
+---
+
+These technologies and libraries work together to create a robust and scalable recommendation system and data analysis dashboard.
 
 ## **Setup Instructions**
 
