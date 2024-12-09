@@ -1,6 +1,6 @@
 # **Big Data Project: Movie Recommendation System**
 
-This project implements a movie recommendation system using pre-trained models and a user-friendly Streamlit dashboard. The system utilizes SQL databases to store movie data, user ratings, and precomputed recommendations for efficient querying.
+This project implements a movie recommendation system using a self-trained NCF deep learning model and a user-friendly Streamlit dashboard. The system utilizes SQL databases to store movie data, user ratings, and recommendations obtained trained NCF deep learning model for efficient querying.
 
 ---
 ## MovieLens Dashboard
