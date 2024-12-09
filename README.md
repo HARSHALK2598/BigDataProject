@@ -3,6 +3,13 @@
 This project implements a movie recommendation system using pre-trained models and a user-friendly Streamlit dashboard. The system utilizes SQL databases to store movie data, user ratings, and precomputed recommendations for efficient querying.
 
 ---
+## MovieLens Dashboard
+
+### MovieLens Dataset Analysis
+![MovieLens Dataset Analysis](images/movielens_analysis.png)
+
+### Movie Recommendation System
+![Movie Recommendation System](images/recommendation_system.png)
 
 ## **Project Structure**
 
